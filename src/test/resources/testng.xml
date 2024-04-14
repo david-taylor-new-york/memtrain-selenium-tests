@@ -1,0 +1,74 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MemTrainAppTestSuite">
+
+    <test name="LoginPageTests">
+        <classes>
+            <class name="page_tests.LoginPageTest"/>
+        </classes>
+    </test>
+
+    <test name="SubjectPageTests">
+        <classes>
+            <class name="page_tests.SubjectPageTest"/>
+        </classes>
+    </test>
+
+    <test name="MainMenuPageTests">
+        <classes>
+            <class name="page_tests.MainMenuPageTest"/>
+        </classes>
+    </test>
+
+    <test name="CardMenuPageTests">
+        <classes>
+            <class name="page_tests.CardMenuPageTest"/>
+        </classes>
+    </test>
+
+    <test name="CreateCardPageTests">
+        <classes>
+            <class name="page_tests.CreateCardPageTest"/>
+        </classes>
+    </test>
+
+    <test name="EditCardPageTests">
+        <classes>
+            <class name="page_tests.EditCardPageTest"/>
+        </classes>
+    </test>
+
+    <test name="DeleteCardPageTests">
+        <classes>
+            <class name="page_tests.DeleteCardPageTest"/>
+        </classes>
+    </test>
+
+    <test name="TrainingMenuPageTests">
+        <classes>
+            <class name="page_tests.TrainingMenuPageTest"/>
+        </classes>
+    </test>
+
+    <test name="TrainingSessionsPageTests">
+        <classes>
+            <class name="page_tests.TrainingSessionsPageTest"/>
+        </classes>
+    </test>
+
+    <test name="TrainingSessionPageTests">
+        <classes>
+            <class name="page_tests.TrainingSessionPageTest"/>
+        </classes>
+    </test>
+
+    <test name="TrainingCardResultsPageTests">
+        <classes>
+            <class name="page_tests.TrainingCardResultsPageTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    </listeners>
+
+</suite>

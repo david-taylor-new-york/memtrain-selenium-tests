@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+SeleniumMemTrainTests.iml
+src/.DS_Store
+src/main/resources/.DS_Store
+src/test/resources/LICENSE.chromedriver
+src/test/resources/chromedriver
+target/
